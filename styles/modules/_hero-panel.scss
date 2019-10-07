@@ -1,0 +1,31 @@
+.hero-panel{
+  width: 60%;
+  height: 80%;
+  min-width: 1140px;
+  min-height: 750px;
+  background-color: rgb(248, 250, 223);
+  padding: 0;
+  margin: 0;
+  @include Rounded-3D;
+}
+
+@media (max-width: 1366px){
+
+  .hero-panel{
+    min-width: 800px;
+    min-height: 530px;
+    max-height: 530px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  
+  .hero-panel{
+    width: 80%;
+    min-width: 330px;
+    height: 50%;
+    min-height: 620px;
+  }
+  
+}

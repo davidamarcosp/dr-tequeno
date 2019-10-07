@@ -1,0 +1,49 @@
+.panel-center{
+  overflow: hidden;
+}
+
+.mid-screen{
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  transition: 800ms;
+  height: 100%;
+  width: 100%;
+  &__grid{
+    height: 50%;
+    &__cell{
+      height: 90%;
+      opacity: 0;
+      transition: 250ms;
+      @include Rounded-3D;
+      &.fadeIn{
+        opacity: 0.7;
+      }
+      &:hover{
+        opacity: 0.9;
+      }
+    }
+  }
+  &.right{
+    left: -100%;
+    opacity: 0;
+  }
+  &.left{
+    left: 100%;
+    opacity: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  
+  .panel-center{
+    overflow: visible;
+  }
+
+  .mid-screen{
+    display: none;
+  }
+  
+}
