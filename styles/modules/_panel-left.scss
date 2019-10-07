@@ -194,11 +194,21 @@
     opacity: 1;
     position: absolute;
     &__menu{
-      height: 390px;
+      height: 590px;
+      &__title{
+        margin-top: 3rem;
+      }
       &__extra{
-        margin-bottom: 2rem;
+        margin-bottom: 0.2rem;
+      }
+      &__list {
+        &--ex{
+          height: 40px;
+        }
       }
     }
   }
+
+  
   
 }
