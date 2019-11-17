@@ -15,12 +15,12 @@
 <body>
   <section class="container hero-panel">
     <div class="row fill m-0">
-      <div class="col-1 col-md-2 panel-side">
+      <div class="col-1 col-sm-2 panel-side">
         <button id="leftBtn" class="panel-side__button">
           <img class="panel-side__button__img left" src="./imgs/left-chevron.svg" alt="">
         </button>
       </div>
-      <div class="col-10 col-md-8 panel-center d-flex p-0">
+      <div class="col-10 col-sm-8 panel-center d-flex p-0">
         <img src="./imgs/tequenologo.svg" alt="" class="logo">
         <div class="mid-screen">
           <div class="row mid-screen__grid">
@@ -42,13 +42,13 @@
         </div>
         <div class="left-screen">
           <div class="row m-0 align-items-center fill">
-            <div class="d-none d-md-block col-0 col-md-3">
+            <div class="d-none d-sm-block col-0 col-sm-3">
             </div>
-            <div class="col-12 col-md-8 p-0 left-screen__menu">
+            <div class="col-12 col-sm-8 p-0 left-screen__menu">
               <div class="row fill m-0">
                 <h1 class="left-screen__menu__header">MENÚ</h1>
                 <img class="left-screen__menu__header--bg" src="imgs/ribbon-silhouette.svg" alt="" srcset="">
-                <div class="col-12 col-md-10 ml-md-auto p-0 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+                <div class="col-12 col-sm-10 ml-sm-auto p-0 d-flex flex-column justify-content-end justify-content-sm-center align-items-center">
                   <h3 class="left-screen__menu__title">TEQUEÑOS</h3>
                   <ul class="left-screen__menu__list">
                     <li class="left-screen__menu__item d-flex">
@@ -85,14 +85,14 @@
                     </div>
                   </div>
                 </div>
-                <div class="d-block d-sm-none d-flex justify-content-start align-items-center flex-column" style="width: 100%">
-                  <hr style="width: 85%; height: 2px; background-color: #6c140d; margin: 18px 0;">
-                  <p class="m-0 mb-2 text-center" style="font-family: 'Montserrat', sans-serif; font-size: 0.9rem;">¡Pide por Whatsapp!</p>
+                <div class="d-block d-flex d-sm-none justify-content-start align-items-center flex-column mobile">
+                  <hr class="mobile__divider">
+                  <p class="m-0 mb-2 mobile__title">¡Pide por Whatsapp!</p>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=5491123860285&text=%C2%A1Hola!%20Deseo%20hacer%20mi%20pedido%20ya.">
-                    <img src="./imgs/whatsapp.svg" class="img-fluid d-block mb-2" alt="" style="width: 3.7rem;">
+                    <img src="./imgs/whatsapp.svg" class="img-fluid mb-2 mobile__link" alt="">
                   </a>
-                  <p style="margin-bottom: 10px; font-family: 'Montserrat', sans-serif; font-size: 0.9rem;">Delivery por:</p>
-                  <img src="./imgs/glovoapp-seeklogo.com.svg" class="img-fluid d-block" alt="" style="width: 5rem;">
+                  <p class="mobile__text">Delivery por:</p>
+                  <img src="./imgs/glovoapp-seeklogo.com.svg" class="img-fluid d-block mobile__logo" alt="">
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@
           </div>
         </div>
       </div>
-      <div class="col-1 col-md-2 panel-side">
+      <div class="col-1 col-sm-2 panel-side">
         <button id="rightBtn" class="panel-side__button">
           <img class="panel-side__button__img right" src="./imgs/right-chevron.svg" alt="">
         </button>
@@ -130,15 +130,12 @@
     </div>
   </section>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="./scripts/app.js"></script>
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>

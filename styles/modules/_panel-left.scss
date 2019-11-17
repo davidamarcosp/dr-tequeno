@@ -64,7 +64,7 @@
       }
     }
     &__list{
-      width: 17rem;
+      width: 58%;
       padding: 0;
       margin-top: 2.5rem;
       margin-bottom: 1.5rem;
@@ -92,10 +92,10 @@
       &::after{
         content:"";
         display: block;
-        width: 130%;
+        width: 85%;
         border-bottom: 3px solid #6c140d;
         position: relative;
-        left: -5.1rem;
+        left: -110%;
         top: -0.85rem;
       }
       &--ex{
@@ -153,7 +153,6 @@
         }
       }
       &__list{
-        width: 10.8rem;
         margin: 1rem 0;
       }
       &__item{
@@ -165,7 +164,8 @@
       }
       &__prices{
         &::after{
-          left: -3.3rem;
+          width: 2rem;
+          left: -2.9rem;
           top: -0.6rem;
           border-bottom: 2px solid #6c140d;
         }
@@ -204,6 +204,12 @@
       &__list {
         &--ex{
           height: 40px;
+        }
+      }
+      &__prices{
+        &::after{
+          width: 1.9rem;
+          left: -2.5rem;
         }
       }
     }

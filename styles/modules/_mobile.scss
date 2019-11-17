@@ -1,0 +1,27 @@
+.mobile{
+  width: 100%;
+  &__divider{
+    width: 85%; 
+    height: 2px; 
+    background-color: #6c140d; 
+    margin: 18px 0;
+  }
+  &__title{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  &__link{
+    width: 3.7rem;
+    display: block;
+  }
+  &__text{
+    margin-bottom: 10px; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 0.9rem;
+  }
+  &__logo{
+    width: 5rem;
+    display: block;
+  }
+}

@@ -6,7 +6,7 @@ left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
 z-index: 1;
-transition: 800ms;
+transition: margin 800ms;
   &.right{
     margin-top: -6em;
   }
@@ -32,6 +32,12 @@ transition: 800ms;
   .logo{
     width: 200px;
     top: -1.2rem;
+    &.left{
+      margin-left: 0;
+      left: 50%;
+      top: -25%;
+      transform: translateX(-50%);
+    }
   }
 
 }
