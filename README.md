@@ -1,5 +1,5 @@
 # dr-tequeno
-Landing page for a small food startup, built with a responsibe design
+Landing page for a small food startup, built with a responsive design.
 
 Hosted using Github pages: https://davidamarcosp.github.io/dr-tequeno/
 
